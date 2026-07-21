@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fort Greene Press is an independent publishing project in Brooklyn, New York."
+    />
+    <meta name="theme-color" content="#f1eadc" />
+    <meta property="og:title" content="Fort Greene Press" />
+    <meta
+      property="og:description"
+      content="Independent publishing from Fort Greene, Brooklyn."
+    />
+    <meta property="og:type" content="website" />
+    <title>Fort Greene Press</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Fort Greene Press home">
+        <span>Fort Greene</span>
+        <span>Press</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="mailto:hello@fortgreenepress.com">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Brooklyn, New York</p>
+        <h1 id="hero-title">
+          Stories made<br />
+          <em>to be held.</em>
+        </h1>
+        <div class="hero-footer">
+          <p>
+            An independent press for writing, art, and ideas rooted in the
+            neighborhood and reaching beyond it.
+          </p>
+          <a class="arrow-link" href="#about">
+            Discover more <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="statement" id="about" aria-labelledby="about-title">
+        <div class="section-number" aria-hidden="true">01</div>
+        <div>
+          <p class="eyebrow">About the press</p>
+          <h2 id="about-title">
+            Small editions.<br />
+            <span>Big attention.</span>
+          </h2>
+          <p class="body-copy">
+            Fort Greene Press is an independent publishing project based in
+            Brooklyn. We believe thoughtful work deserves thoughtful form—and
+            that the best publications create a place for readers to linger.
+          </p>
+        </div>
+      </section>
+
+      <section class="coming-soon" aria-labelledby="soon-title">
+        <p class="eyebrow">From the press</p>
+        <h2 id="soon-title">First editions<br />coming soon.</h2>
+        <a class="button" href="mailto:hello@fortgreenepress.com">
+          Get in touch <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Fort Greene Press</p>
+      <p>Brooklyn, NY</p>
+      <p>© <span id="year">2026</span></p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
