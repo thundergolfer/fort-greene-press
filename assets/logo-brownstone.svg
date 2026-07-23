@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 88" fill="none" aria-hidden="true">
+  <!-- Hand-drawn brownstone doodle. Single-weight lines for foil stamp and blind emboss. -->
+  <g stroke="#b89438" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cornice -->
+    <path d="M7.5 9.5 H44.5 M8 12 H44" />
+    <path d="M9 12 L10 14 L11 12 L12 14 L13 12 L14 14 L15 12 L16 14 L17 12 L18 14 L19 12 L20 14 L21 12 L22 14 L23 12 L24 14 L25 12 L26 14 L27 12 L28 14 L29 12 L30 14 L31 12 L32 14 L33 12 L34 14 L35 12 L36 14 L37 12 L38 14 L39 12 L40 14 L41 12 L42 14 L43 12" />
+
+    <!-- Facade -->
+    <path d="M8.5 14.5 L8 58.5 L44.5 59 L45 14.5" />
+
+    <!-- Top floor windows -->
+    <path d="M11.5 18.5 H16.5 V34.5 H11.5 Z M21.5 18 H26.5 V34 H21.5 Z M31.5 18.5 H36.5 V34.5 H31.5 Z" />
+
+    <!-- Parlor window -->
+    <path d="M10 39.5 H23.5 V55.5 H10 Z M16.5 39.5 V55.5" />
+
+    <!-- Door -->
+    <path d="M28.5 39 H42.5 V58 H28.5 Z M31.5 43 H39.5 M31.5 48.5 H39.5 M35.5 43 V48.5" />
+
+    <!-- Stoop -->
+    <path d="M28 58 H43 M29.5 61 H41.5 M31 64 H40 M32.5 67 H38.5 M34 70 H37" />
+    <path d="M28 58 L24.5 72 M43 58 L46.5 72" />
+
+    <!-- Basement window -->
+    <path d="M10 60.5 H21.5 V71.5 H10 Z" />
+    <path d="M12 63 H19.5 M12 66.5 H19.5 M12 70 H19.5 M14.5 63 V70 M17 63 V70" />
+
+    <!-- Ground -->
+    <path d="M6 75 H46" />
+  </g>
+</svg>

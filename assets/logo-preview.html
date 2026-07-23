@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Logo preview</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        background: #eee;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        padding: 32px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .panel {
+        border-radius: 8px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        min-height: 320px;
+        justify-content: center;
+      }
+      .panel h2 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        opacity: 0.7;
+      }
+      .white { background: #fff; color: #333; }
+      .site { background: #526441; color: #f1eadc; }
+      .logo-large { width: 120px; height: auto; }
+      .logo-header { width: 32px; height: auto; }
+      .wordmark {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-family: Georgia, serif;
+        font-size: 1.6rem;
+        line-height: 0.82;
+        color: #f1eadc;
+      }
+      .wordmark-text { display: flex; flex-direction: column; }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="panel white">
+        <h2>On book / stamp (white)</h2>
+        <img class="logo-large" src="logo-brownstone.svg" alt="Fort Greene Press logo" />
+      </div>
+      <div class="panel site">
+        <h2>On website (green)</h2>
+        <img class="logo-large" src="logo-brownstone.svg" alt="Fort Greene Press logo" />
+      </div>
+      <div class="panel site" style="grid-column: 1 / -1; flex-direction: row; justify-content: flex-start; padding: 24px 40px;">
+        <h2 style="margin-right: auto;">In header</h2>
+        <div class="wordmark">
+          <img class="logo-header" src="logo-brownstone.svg" alt="" />
+          <span class="wordmark-text">
+            <span>Fort Greene</span>
+            <span>Press</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

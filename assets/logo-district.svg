@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 118" fill="none" aria-hidden="true">
+  <!-- Fort Greene Historic District boundary, original district line from Map 1. -->
+  <g stroke="#b89438" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 98 V28 L42 28 V18 H92 V34 H76 V48 H90 V62 H74 V76 H88 V90 H68 V98 H18 Z" />
+    <path d="M28 38 H40 V88 H28 Z" />
+  </g>
+</svg>
